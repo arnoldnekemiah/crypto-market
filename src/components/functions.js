@@ -5,9 +5,10 @@ export const generateNavLinks = (cryptoArray) => {
   const linkArray = [];
   for (let rank = 1; rank <= cryptoArray.length; rank += 1) {
     linkArray.push(
-      <li key={rank}>
-        <NavLink className="link" to={`/${rank}`}>
-          {`#${cryptoArray[rank - 1].rank} ${cryptoArray[rank - 1].name}`}
+      <li key={rank} className="gridItem ">
+        <NavLink className="link row gridLink" to={`/${rank}`}>
+          <h2>{`#${cryptoArray[rank - 1].rank}`}</h2>
+          <p>{`${cryptoArray[rank - 1].name}`}</p>
         </NavLink>
       </li>,
     );
@@ -15,20 +16,17 @@ export const generateNavLinks = (cryptoArray) => {
   return linkArray;
 };
 
-export const searchByRank = (arr, rank) => {
-  const token = arr.filter((coin) => coin.rank === rank);
-
-  if (token.length === 0) {
-    return <p>Out Of Bounds.</p>;
+export const filterByRankOrName = (arr, parameter) => {
+  const argument = parameter.toLowerCase().trim();
+  if (!argument) {
+    return []; // Return an empty array if the query is empty.
   }
 
-  const result = (
-    <NavLink key={rank} className="link" to={`/${token[0].rank}`}>
-      {`#${token[0].rank} ${token[0].name}`}
-    </NavLink>
+  const filteredTokens = arr.filter(
+    (coin) => coin.rank === argument || coin.name.toLowerCase().includes(argument),
   );
 
-  return result;
+  return filteredTokens;
 };
 
 export const generateRoutes = (arr) => {

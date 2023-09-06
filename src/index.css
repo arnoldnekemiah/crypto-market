@@ -1,0 +1,16 @@
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Gill Sans', sans-serif;
+    color: #fff;
+    background: #100606;
+  }
+  
+  #root {
+    min-height: 100vh;
+  }

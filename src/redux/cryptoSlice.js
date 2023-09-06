@@ -13,7 +13,7 @@ export const getTokens = createAsyncThunk('tokens/getTokens', async (_, thunkAPI
     const response = await axios(config);
     return response.data;
   } catch (error) {
-    const errorMsg = `${error.code}: ${error.msg}`;
+    const errorMsg = `${error.message}`;
     return thunkAPI.rejectWithValue(errorMsg);
   }
 });
@@ -29,6 +29,8 @@ const formatCryptoStats = (token) => {
   token.priceUsd = parseFloat(token.priceUsd).toFixed(2);
   token.priceUsd = parseFloat(token.priceUsd).toLocaleString();
   token.supply = parseFloat(token.supply).toLocaleString();
+  token.volumeUsd24Hr = parseFloat(token.priceUsd).toFixed(2);
+  token.volumeUsd24Hr = parseFloat(token.priceUsd).toLocaleString();
   return token;
 };
 
@@ -47,7 +49,7 @@ const cryptoSlice = createSlice({
         state.isLoading = true;
       })
       .addCase(getTokens.fulfilled, (state, action) => {
-        state.cryptoArray = action.payload.data.slice(0, 10);
+        state.cryptoArray = action.payload.data;
         state.cryptoArray = state.cryptoArray.map((token) => formatCryptoStats(token));
         state.isLoading = false;
       })
