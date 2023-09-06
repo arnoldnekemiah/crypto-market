@@ -29,7 +29,7 @@
 
 # 📖 Crypto Market Cap Rankings <a name="about-project"></a>
 
-**Crypto Market Cap Rankings** is an app that lets you keep track of the top 100 cryptocurrencies ranked by their marketcaps. You will also be able to see details about each token such as the price per unit in USD, amount traded in the past 24h in USD, the current supply of the token in circulation, as well as the maximum possible supply of the token.
+**Crypto Market** is an app that lets you keep track of the top 100 cryptocurrencies ranked by their marketcaps. You will also be able to see details about each token such as the price per unit in USD, amount traded in the past 24h in USD, the current supply of the token in circulation, as well as the maximum possible supply of the token.
 
 ## 🛠 Built With <a name="built-with"></a>
 
