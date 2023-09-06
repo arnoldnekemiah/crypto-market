@@ -26,8 +26,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  box-shadow: 0px 0px 16px 11px #29986cad;
+  box-shadow: 0 0 16px 11px #29986cad;
 }
 
 header {
