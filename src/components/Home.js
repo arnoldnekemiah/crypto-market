@@ -21,9 +21,7 @@ const Home = () => (
     <div id="home" className="row">
       <SiCoinmarketcap id="logo" />
       <div className="column">
-        <h1>Crypto</h1>
-        <h1>Market Cap</h1>
-        <h1>Rankings</h1>
+        <h1>Crypto Market Rankings Cap</h1>
       </div>
     </div>
     <Navigation />
