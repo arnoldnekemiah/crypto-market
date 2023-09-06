@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://zingy-crostata-7a5443.netlify.app/)
 - [Video Presentation]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
