@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://zingy-crostata-7a5443.netlify.app/)
+- [Live Demo Link](https://hilarious-narwhal-a7e78b.netlify.app/)
 - [Video Presentation](https://drive.google.com/file/d/17e6YAzZ8fYGCiwe8kyCqIB18dNP01s3W/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
