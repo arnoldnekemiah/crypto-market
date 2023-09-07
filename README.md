@@ -62,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://zingy-crostata-7a5443.netlify.app/)
+- [Live Demo Link](https://hilarious-narwhal-a7e78b.netlify.app/)
 - [Video Presentation](https://drive.google.com/file/d/17e6YAzZ8fYGCiwe8kyCqIB18dNP01s3W/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,5 +146,10 @@ If you like this project, please give it a star ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank <a href="https://www.microverse.org/">Microverse</a> for providing the guidelines that made this project possible, <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakawa</a> for providing the <a href="https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">design</a> for the user interface, and the developers at <a href="https://coincap.io/">CoinCap</a> for making the <a href="https://docs.coincap.io/">API</a> they use freely available to the public.
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./Licence) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

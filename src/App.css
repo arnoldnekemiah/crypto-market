@@ -26,7 +26,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 16px 11px #29986cad;
+  box-shadow: 0 0 16px 11px #1a0f3ead;
 }
 
 header {
@@ -98,7 +98,7 @@ header p {
 #coinGrid {
   display: grid;
   grid-template-columns: 12.16rem 12.16rem;
-  max-height: 22.8rem;
+  height: 22.8rem;
   overflow-y: auto;
   position: relative;
   width: 100%;
@@ -114,9 +114,38 @@ header p {
   gap: 0.3rem;
 }
 
+.gridItem {
+  position: relative;
+  height: 11.5rem;
+}
+
+.gridItem :hover {
+  background-color: #98b3ea;
+  color: rgb(26, 17, 17);
+  font-weight: 400;
+  font-size: large;
+}
+
 .gridItem:nth-child(4n + 2),
 .gridItem:nth-child(4n + 3) {
   background: #385995;
+}
+
+.gridItem:nth-child(4n + 2):hover,
+.gridItem:nth-child(4n + 3):hover {
+  background-color: #98b3ea;
+}
+
+.gridItem h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gridItem p {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 .gridLink h2 {
@@ -196,7 +225,7 @@ header p {
 }
 
 .stats:nth-child(even) {
-  background: #38953d;
+  background: #384695;
 }
 
 .stats:nth-child(5) {
