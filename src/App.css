@@ -126,12 +126,10 @@ header p {
   font-size: large;
 }
 
-
 .gridItem:nth-child(4n + 2),
 .gridItem:nth-child(4n + 3) {
   background: #385995;
 }
-
 
 .gridItem:nth-child(4n + 2):hover,
 .gridItem:nth-child(4n + 3):hover {
