@@ -147,4 +147,9 @@ If you like this project, please give it a star ⭐️
 
 I would like to thank <a href="https://www.microverse.org/">Microverse</a> for providing the guidelines that made this project possible, <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakawa</a> for providing the <a href="https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">design</a> for the user interface, and the developers at <a href="https://coincap.io/">CoinCap</a> for making the <a href="https://docs.coincap.io/">API</a> they use freely available to the public.
 
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
