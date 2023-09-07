@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getTokens } from './redux/cryptoSlice';
+import Home from './components/Home';
 import './App.css';
+import { generateRoutes } from './components/functions';
 
-function App() {
+const App = () => {
+  const { cryptoArray } = useSelector((store) => store.crypto);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getTokens());
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {generateRoutes(cryptoArray)}
+      </Routes>
+    </main>
   );
-}
+};
 
 export default App;

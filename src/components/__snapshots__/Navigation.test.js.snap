@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders correctly 1`] = `
+<nav
+  id="coinNav"
+>
+  <form
+    id="form"
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Filter by Rank or Name"
+      type="text"
+      value=""
+    />
+  </form>
+  <ul
+    id="coinGrid"
+  />
+</nav>
+`;

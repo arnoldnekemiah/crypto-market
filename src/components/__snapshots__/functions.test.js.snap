@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filterByRankOrName filters tokens by rank or name 1`] = `
+Array [
+  Object {
+    "name": "Bitcoin",
+    "rank": 1,
+  },
+]
+`;
+
+exports[`generateNavLinks generates navigation links correctly 1`] = `
+<ul>
+  <li
+    className="gridItem "
+  >
+    <a
+      className="link row gridLink"
+      href="/1"
+      onClick={[Function]}
+    >
+      <h2>
+        #1
+      </h2>
+      <p>
+        Bitcoin
+      </p>
+    </a>
+  </li>
+  <li
+    className="gridItem "
+  >
+    <a
+      className="link row gridLink"
+      href="/2"
+      onClick={[Function]}
+    >
+      <h2>
+        #2
+      </h2>
+      <p>
+        Ethereum
+      </p>
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`generateRoutes generates routes correctly 1`] = `null`;
