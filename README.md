@@ -27,7 +27,7 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 
-# 📖 Crypto Market Cap Rankings <a name="about-project"></a>
+# 📖 Crypto Market <a name="about-project"></a>
 
 **Crypto Market** is an app that lets you keep track of the top 100 cryptocurrencies ranked by their marketcaps. You will also be able to see details about each token such as the price per unit in USD, amount traded in the past 24h in USD, the current supply of the token in circulation, as well as the maximum possible supply of the token.
 
@@ -63,7 +63,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://zingy-crostata-7a5443.netlify.app/)
-- [Video Presentation]()
+- [Video Presentation](https://drive.google.com/file/d/17e6YAzZ8fYGCiwe8kyCqIB18dNP01s3W/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +145,6 @@ If you like this project, please give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank <a href="https://www.microverse.org/">Microverse</a> for providing the guidelines that made this project possible, <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakawa</a> for providing the <a href="https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">design</a> for the user interface, and the folks at <a href="https://coincap.io/">CoinCap</a> for making the <a href="https://docs.coincap.io/">API</a> they use freely available to the public.
+I would like to thank <a href="https://www.microverse.org/">Microverse</a> for providing the guidelines that made this project possible, <a href="https://www.behance.net/sakwadesignstudio">Nelson Sakawa</a> for providing the <a href="https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)">design</a> for the user interface, and the developers at <a href="https://coincap.io/">CoinCap</a> for making the <a href="https://docs.coincap.io/">API</a> they use freely available to the public.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
